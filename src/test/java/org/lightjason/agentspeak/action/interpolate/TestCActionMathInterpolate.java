@@ -21,7 +21,7 @@
  * @endcond
  */
 
-package org.lightjason.agentspeak.action;
+package org.lightjason.agentspeak.action.interpolate;
 
 import org.apache.commons.math3.analysis.interpolation.LinearInterpolator;
 import org.apache.commons.math3.analysis.interpolation.NevilleInterpolator;
@@ -30,9 +30,6 @@ import org.apache.commons.math3.analysis.polynomials.PolynomialFunctionNewtonFor
 import org.apache.commons.math3.analysis.polynomials.PolynomialSplineFunction;
 import org.junit.Assert;
 import org.junit.Test;
-import org.lightjason.agentspeak.action.interpolate.CCreate;
-import org.lightjason.agentspeak.action.interpolate.CMultipleInterpolate;
-import org.lightjason.agentspeak.action.interpolate.CSingleInterpolate;
 import org.lightjason.agentspeak.language.CRawTerm;
 import org.lightjason.agentspeak.language.ITerm;
 import org.lightjason.agentspeak.language.execution.IContext;
