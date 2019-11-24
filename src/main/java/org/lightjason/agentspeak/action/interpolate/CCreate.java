@@ -58,11 +58,11 @@ import java.util.stream.Stream;
  *
  * {@code PI = .math/interpolate/create("akima|divideddifference|linear|loess|neville", [-5,1,2,8,14], [7,3,7,4,8]);}
  *
- * @see https://en.wikipedia.org/wiki/Polynomial_interpolation
- * @see https://en.wikipedia.org/wiki/Divided_differences
- * @see https://en.wikipedia.org/wiki/Linear_interpolation
- * @see https://en.wikipedia.org/wiki/Local_regression
- * @see https://en.wikipedia.org/wiki/Neville%27s_algorithm
+ * @see <a href="https://en.wikipedia.org/wiki/Polynomial_interpolation"></a>
+ * @see <a href="https://en.wikipedia.org/wiki/Divided_differences"></a>
+ * @see <a href="https://en.wikipedia.org/wiki/Linear_interpolation"></a>
+ * @see <a href="https://en.wikipedia.org/wiki/Local_regression"></a>
+ * @see <a href="https://en.wikipedia.org/wiki/Neville%27s_algorithm"></a>
  */
 public final class CCreate extends IBaseAction
 {

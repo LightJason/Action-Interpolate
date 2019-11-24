@@ -48,7 +48,7 @@ import java.util.stream.Stream;
  *
  * {@code [A|B|C] = .math/interpolate/singleinterpolate( InterpolatingFunction, 3, [10, [50]] );}
  *
- * @see https://en.wikipedia.org/wiki/Polynomial_interpolation
+ * @see <a href="https://en.wikipedia.org/wiki/Polynomial_interpolation"></a>
  */
 public final class CSingleInterpolate extends IBaseAction
 {
